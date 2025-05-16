@@ -7,7 +7,6 @@ import HomeLayout from './layouts/HomeLayout'
 function App() {
   return (
     <Routes>
-
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />
       <Route path='/' element={<HomeLayout />}>
